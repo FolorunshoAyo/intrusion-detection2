@@ -159,8 +159,9 @@ $query = mysqli_query($conn, $sql);
 
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    Brand Logo
     <a href="index.php" class="brand-link">
-      <img src="../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+      <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">Dashboard</span>
     </a>
@@ -180,16 +181,16 @@ $query = mysqli_query($conn, $sql);
        <!-- Sidebar Menu -->
        <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-    <!-- nav item for student -->
-             <li class="nav-item">
-                <a href="index.php.php" class="nav-link">
-                  <i class="far fa-home nav-icon"></i>
+         <!-- nav item for student -->
+           <li class="nav-item">
+                <a href="index.php" class="nav-link">
+                  <i class="fas fa-home nav-icon"></i>
                   <p>Home</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="students.php" class="nav-link">
-                  <i class="far fa-user nav-icon"></i>
+                <a href="admin-profile.php" class="nav-link">
+                  <i class="fas fa-user nav-icon"></i>
                   <p>Admin Profile</p>
                 </a>
               </li>
