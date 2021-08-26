@@ -1,5 +1,5 @@
 <?php
-include('getbrowser.php');
+require('getbrowser.php');
 date_default_timezone_set("Africa/Lagos");
  class DbConfig {
     protected $serverName;
